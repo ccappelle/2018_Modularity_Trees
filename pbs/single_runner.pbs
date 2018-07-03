@@ -1,0 +1,12 @@
+#PBS -j oe
+#PBS -m a
+#PBS -m b
+#PBS -o $HOME/scratch/log/2018-Modularity-Trees-Test.log
+#PBS -M collin.cappelle@uvm.edu
+#PBS -l nodes=12:ppn=1
+#PBS -l walltime=30:00:00
+
+DIR = $HOME/2018_Modularity_Trees
+
+
+PYTHONPATH=$HOME/2018_Modularity_Trees python $DIR/runner.py 0 0 0 100 2000 $DIR/data $DIR/base-tree.config

@@ -1,0 +1,20 @@
+
+
+[2018-04-09]
+Set up AFPO, ran on toy problems.
+
+TO DO: Write save functions, run actual experiments.
+
+[2018-04-06]
+Added tree based connection cost for network and morphology.
+
+TO DO: Set up AFPO with save features etc.
+
+[2018-04-05]
+Initial entry.
+Added tree, evolution, fitness function, etc.
+Hill climber tests showed evolution can occur on 2 environments simultaneously.
+Visual inspection shows the the robot performs similar actions meaning modularity is most likely not present.
+
+TO DO: Assign nodes branches, write connection cost according to tree structure, visualization of network.
+Run AFPO tests on multiple environments.
